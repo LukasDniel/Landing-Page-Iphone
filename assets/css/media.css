@@ -1,0 +1,32 @@
+@media (max-width: 1116px){
+
+   .hero{
+    max-width: 770px;
+    height: 700px;
+    margin: 30 auto;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+
+    overflow-x: scroll;
+
+    padding: 20px 80px;
+   }
+
+   .item{
+    padding-right: 10px;
+   }
+
+   .item-product img{
+    left: 60px;
+   }
+
+}
+
+@media (max-width: 400px){
+    .hero{
+        padding: 20px 30px;
+    }
+}

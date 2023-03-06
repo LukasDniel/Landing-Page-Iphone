@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;400;500;600&family=Roboto:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p{
+    margin: 0;
+}
+
+.hero{
+    background-color: #90BB14;
+    max-width: 1400px;
+    height: 800px;
+    margin: 60px auto;
+    border-radius: 10px;
+
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   align-items: center;
+   justify-items:center ;
+}
+
+hr{
+    width: 260px;
+    border: 1px solid rgba(94, 94, 94, 0.041);
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    padding: 15px 50px;
+    border-radius: 20px;
+    font-size: 18px;
+}
